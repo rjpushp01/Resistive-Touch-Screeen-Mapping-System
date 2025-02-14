@@ -60,4 +60,20 @@ This project implements a resistive touch screen system that enables users to cr
 1. Install required libraries:
    ```sh
    pip install matplotlib numpy sympy pyautogui serial RPi.GPIO
+2. Run the appropriate script on the Raspberry Pi:
+   ```sh
+   python3 RPI.py
+3. Alternatively, run the PC-based script:
+   ```sh
+   python3 Arduino_pyth.py
+
+## Usage
+
+- Touch Input Mode: Touch the screen to input data, which gets converted into mapped coordinates or a mathematical function.
+- GPIO Function Selection Mode: Press the predefined switches to select and visualize mathematical functions on a graph.
+- Graph Plotting: The processed input is displayed on a plotted grid in real-time.
+- Automated Interaction: The system can send function-related inputs to other applications via PyAutoGUI.
+
+
+   
 
